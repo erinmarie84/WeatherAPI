@@ -1,0 +1,103 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.welcome{
+
+    grid-column: 1 / 6;
+    grid-row: 1;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border: 5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.textEntry{
+
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+    
+}
+
+#currentCity {
+
+    grid-column: 3;
+    grid-row: 2 / 2;
+}
+
+#oneIcon {
+
+    grid-column: 4;
+    grid-row: 2 / 2;
+    width: 5px;
+}
+
+#fiveDay {
+    border: 10px;
+    grid-column: 1;
+    grid-row: 5;
+    font-size: x-small;
+    
+
+}
+
+.grid {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    padding: 5rem;
+    margin: 1rem;
+    width: 5px;
+    
+}
+
+.btn{
+
+    grid-column: 1;
+    margin: 10px;
+    padding: 10;
+    width: 250px;
+    height: 30px;
+    
+}
+
+.historyBtn{
+
+    grid-column: 1;
+    grid-row: 3 / 5 ;
+}
+
+.red {
+    color: red;
+    text-emphasis: bold;
+}
+
+.green {
+    color: green;
+   
+    
+}
+
+.yellow {
+    color: #cccc00;
+    text-shadow: gray;
+   
+}
+
+.orange {
+    color:orangered;
+    
+}
+
+.weather-icon {
+    border-style: solid;
+    background-color: blue;
+    background-image: linear-gradient(white, lightblue);
+}
+
